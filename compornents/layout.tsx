@@ -28,7 +28,7 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
       <nav className="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full">
         <div className="mb-2 sm:mb-0 inner">
 
-          <a href="/home" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Tech The World Needs</a><br />
+          <a href="/" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Tech The World Needs</a><br />
           <span className="text-xs text-grey-dark">世界を変える技術がここに</span>
 
         </div>
