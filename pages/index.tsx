@@ -6,7 +6,7 @@ import Layout, { siteTitle } from '../compornents/layout'
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
     <div className={styles.container}>
       <Head>
         <title>Sample App</title>
@@ -18,37 +18,37 @@ export default function Home() {
         <h1 className={styles.title}>
           好きな技術キーワードを選択してください
         </h1>
-        <div class="p-1  mt-2 text-center space-x-1 space-y-2">
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">クラウドコンピューティング</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">人工知能</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">データマイニング</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">データ圧縮技術</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">光ネットワーク</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">バーチャルリアリティ</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">高性能レーザー</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300"> LSI設計</button>
+        <div className="p-1  mt-2 text-center space-x-1 space-y-2">
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">クラウドコンピューティング</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">人工知能</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">データマイニング</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">データ圧縮技術</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">光ネットワーク</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">バーチャルリアリティ</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">高性能レーザー</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300"> LSI設計</button>
         </div>
-        <div class="p-1  mt-2 text-center space-x-1 space-y-2">
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">二酸化炭素固定化</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">大気汚染</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">有機塩素化合物</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">放射性廃棄物</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">無害化技術</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">エコデザイン</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">廃棄物処理技術</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">環境影響評価</button>
+        <div className="p-1  mt-2 text-center space-x-1 space-y-2">
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">二酸化炭素固定化</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">大気汚染</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">有機塩素化合物</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">放射性廃棄物</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">無害化技術</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">エコデザイン</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">廃棄物処理技術</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">環境影響評価</button>
         </div>
-        <div class="p-1  mt-2 text-center space-x-1 space-y-2">
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">量子力学</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">コロイド</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">ケイ素系材料</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">カーボンナノチューブ･フラーレン</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">ナノファイバー</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">光触媒、光触媒反応</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">自己修復材料</button>
-          <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">非破壊検査</button>
+        <div className="p-1  mt-2 text-center space-x-1 space-y-2">
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">量子力学</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">コロイド</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">ケイ素系材料</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">カーボンナノチューブ･フラーレン</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">ナノファイバー</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">光触媒、光触媒反応</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">自己修復材料</button>
+          <button className="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider border text-green-600 rounded-full hover:shadow-lg hover:bg-green-300">非破壊検査</button>
         </div>
-        <div class="p-1  mt-2 text-center space-x-1 space-y-2">
+        <div className="p-1  mt-2 text-center space-x-1 space-y-2">
           <button className="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-green-500 hover:bg-green-700">
             <Link href={`/recomend`}>これで始める</Link>
           </button>
