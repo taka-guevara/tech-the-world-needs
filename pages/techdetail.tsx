@@ -102,6 +102,9 @@ export default function TechDetail() {
             <h2 className="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
               さまざまな製造方法
             </h2>
+            <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
+              エレクトロスピニング法は、セットアップが簡単で、さまざまなポリマーから連続したナノファイバーを大量生産でき、直径、組成、配向を制御できる極薄のファイバーを生成できることから、ナノファイバーの生成に最もよく用いられる方法である
+            </p>
             <ul className="p-0 m-0 leading-6 border-0 border-gray-300">
               <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
                 <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-green-300 rounded-full">
@@ -128,9 +131,6 @@ export default function TechDetail() {
                 熱誘起相分離法
               </li>
             </ul>
-            <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-lg">
-              エレクトロスピニング法は、セットアップが簡単で、さまざまなポリマーから連続したナノファイバーを大量生産でき、直径、組成、配向を制御できる極薄のファイバーを生成できることから、ナノファイバーの生成に最もよく用いられる方法である
-            </p>
           </div>
 
           <div className="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
