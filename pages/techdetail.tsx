@@ -20,7 +20,7 @@ export default function TechDetail() {
               </span>
             </h1>
             <div className="max-w-lg mx-auto mt-6 text-sm text-center text-white md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-xl">
-              ナノファイバーは、直径がナノメートルの範囲にある繊維である。
+              ナノファイバーは、技術的にも商業的にも多くの用途が考えられ、組織工学、ドラッグデリバリー、種子コーティング材、がん診断、リチウム空気電池、光センサー、空気ろ過などに利用されています。
             </div>
           </div>
         </div>
