@@ -1,6 +1,6 @@
-import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 import Layout from "../compornents/layout";
 
@@ -36,10 +36,12 @@ export default function TechDetail() {
                 <span>ポリマー生成</span>
               </h1>
             </div>
-            <div className="relative top-0 right-0 h-64 mt-12 md:-mt-16 md:absolute md:h-96">
-              <img
-                src="https://cdn.devdojo.com/images/december2020/designs3d.png"
-                className="object-cover mt-3 mr-5 h-80 lg:h-96"
+            <div className="relative top-0 right-0 h-64 mt-6 md:-mt-6 md:absolute md:h-96">
+              <Image
+                src="/undraw_Environmental_study_re_q4q8.png"
+                className="object-cover mt-10 mr-5 h-80 lg:h-96"
+                width="400"
+                height="200"
               />
             </div>
           </div>
@@ -55,9 +57,11 @@ export default function TechDetail() {
       <section className="w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24">
         <div className="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
           <div className="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-            <img
-              src="https://cdn.devdojo.com/images/december2020/productivity.png"
+            <Image
+              src="/undraw_professor_8lrt.png"
               className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 "
+              width="400"
+              height="300"
             />
           </div>
 
@@ -133,10 +137,12 @@ export default function TechDetail() {
             </ul>
           </div>
 
-          <div className="box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
-            <img
-              src="https://cdn.devdojo.com/images/december2020/settings.png"
+          <div className="box-border relative w-full max-w-md px-4 mt-10 pl-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2">
+            <Image
+              src="/undraw_science_fqhl.png"
               className="pl-4 sm:pr-10 xl:pl-10 lg:pr-32"
+              width="400"
+              height="300"
             />
           </div>
         </div>
