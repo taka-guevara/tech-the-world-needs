@@ -149,11 +149,14 @@ export default function TechDetail() {
       </section>
       <section className="flex items-center justify-center py-5 text-white bg-white sm:py-16 md:py-24 lg:py-16">
         <div className="p-1 text-center space-x-4 space-y-1">
-          <button className="py-5 px-6 font-semibold rounded-lg shadow-md text-white bg-green-500 hover:bg-green-700">
-            <Link href={`/recomend`}>商談or話を聞いてみる</Link>
-          </button>
           <button className="py-5 px-6 font-semibold rounded-lg shadow-md text-green-600 bg-green-50 hover:bg-green-700">
-            <Link href={`/recomend`}>検討する</Link>
+            <Link href={`/recomend`}>資料ダウンロード</Link>
+          </button>
+          <button className="py-5 px-6 font-semibold rounded-lg shadow-md text-green-600 bg-green-200 hover:bg-green-700">
+            <Link href={`/recomend`}>今すぐ質問</Link>
+          </button>
+          <button className="py-5 px-6 font-semibold rounded-lg shadow-md text-white bg-green-500 hover:bg-green-700">
+            <Link href={`/recomend`}>商談申し込み</Link>
           </button>
         </div>
       </section>
