@@ -1,12 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "./layout.module.css";
 
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = "Next.js Sample Website";
 
 export default function Layout({ children }: React.PropsWithChildren<{}>) {
-
-
   return (
     <div className={styles.container}>
       <Head>
@@ -26,16 +24,37 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
       </Head>
       <nav className="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full">
         <div className="mb-2 sm:mb-0 inner">
-
-          <a href="/" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Tech The World Needs</a><br />
-          <span className="text-xs text-grey-dark">世界を変える技術がここに</span>
-
+          <a
+            href="/"
+            className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold"
+          >
+            Tech The World Needs
+          </a>
+          <br />
+          <span className="text-xs text-grey-dark">
+            世界を変える技術がここに
+          </span>
         </div>
 
         <div className="sm:mb-0 self-center">
-            <a href="#" className="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Link1</a>
-            <a href="#" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Link2</a>
-            <a href="#" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Link3</a>
+          <a
+            href="#"
+            className="text-md no-underline text-black hover:text-blue-dark ml-2 px-1"
+          >
+            Link1
+          </a>
+          <a
+            href="#"
+            className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1"
+          >
+            Link2
+          </a>
+          <a
+            href="#"
+            className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1"
+          >
+            Link3
+          </a>
         </div>
       </nav>
       <main>{children}</main>
@@ -45,12 +64,12 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
+  );
 }
