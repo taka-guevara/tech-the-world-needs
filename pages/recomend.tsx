@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Layout from "../compornents/layout";
+import TechCard from "../compornents/techCard";
 
 export default function Recomend() {
   const [keyword, setKeyword] = useState("");
@@ -18,65 +19,10 @@ export default function Recomend() {
         おすすめ技術
       </h1>
       <div className="container mx-auto m-2 grid grid-cols-3 gap-4">
-        <div className="p-3 rounded-xl border border-black bg-white shadow-md">
-          <section className="text-3xl font-bold">
-            最先端ナノファイバー技術の超活用！
-          </section>
-          <section className="font-normal text-gray-700">
-            ナノファイバーは、直径がナノメートルの範囲にある繊維である。ナノファイバーは、さまざまなポリマーから生成することができるため、異なる物理的特性やアプリケーションの可能性を持っています。
-          </section>
-          <section className="font-bold text-lg text-blue-900">
-            株式会社最先端研究所
-          </section>
-          <section className="flex justify-end">
-            <button
-              type="button"
-              className="bg-green-500 hover:bg-green-700 text-white px-3 py-1 rounded-md"
-            >
-              Read more
-            </button>
-          </section>
-        </div>
-        <div className="p-3 rounded-xl border border-black bg-white shadow-md">
-          <section className="text-3xl font-bold">
-            最先端ナノファイバー技術の超活用！
-          </section>
-          <section className="font-normal text-gray-700">
-            ナノファイバーは、直径がナノメートルの範囲にある繊維である。ナノファイバーは、さまざまなポリマーから生成することができるため、異なる物理的特性やアプリケーションの可能性を持っています。
-          </section>
-          <section className="font-bold text-lg text-blue-900">
-            株式会社最先端研究所
-          </section>
-          <section className="flex justify-end">
-            <button
-              type="button"
-              className="bg-green-500 hover:bg-green-700 text-white px-3 py-1 rounded-md"
-            >
-              Read more
-            </button>
-          </section>
-        </div>
-        <div className="p-3 rounded-xl border border-black bg-white shadow-md">
-          <section className="text-3xl font-bold">
-            最先端ナノファイバー技術の超活用！
-          </section>
-          <section className="font-normal text-gray-700">
-            ナノファイバーは、直径がナノメートルの範囲にある繊維である。ナノファイバーは、さまざまなポリマーから生成することができるため、異なる物理的特性やアプリケーションの可能性を持っています。
-          </section>
-          <section className="font-bold text-lg text-blue-900">
-            株式会社最先端研究所
-          </section>
-          <section className="flex justify-end">
-            <button
-              type="button"
-              className="bg-green-500 hover:bg-green-700 text-white px-3 py-1 rounded-md"
-            >
-              Read more
-            </button>
-          </section>
-        </div>
+        <TechCard />
+        <TechCard />
+        <TechCard />
       </div>
-
       <h2 className="container mx-auto mt-32 flex justify-center text-5xl">
         技術キーワード検索
       </h2>
@@ -98,63 +44,9 @@ export default function Recomend() {
       </div>
       <div className="container mx-auto m-2 flex justify-center">{`検索キーワード:${viewKeyword}`}</div>
       <div className="container mx-auto m-2 grid grid-cols-3 gap-4">
-        <div className="p-3 rounded-xl border border-black bg-white shadow-md">
-          <section className="text-3xl font-bold">
-            最先端ナノファイバー技術の超活用！
-          </section>
-          <section className="font-normal text-gray-700">
-            ナノファイバーは、直径がナノメートルの範囲にある繊維である。ナノファイバーは、さまざまなポリマーから生成することができるため、異なる物理的特性やアプリケーションの可能性を持っています。
-          </section>
-          <section className="font-bold text-lg text-blue-900">
-            株式会社最先端研究所
-          </section>
-          <section className="flex justify-end">
-            <button
-              type="button"
-              className="bg-green-500 hover:bg-green-700 text-white px-3 py-1 rounded-md"
-            >
-              Read more
-            </button>
-          </section>
-        </div>
-        <div className="p-3 rounded-xl border border-black bg-white shadow-md">
-          <section className="text-3xl font-bold">
-            最先端ナノファイバー技術の超活用！
-          </section>
-          <section className="font-normal text-gray-700">
-            ナノファイバーは、直径がナノメートルの範囲にある繊維である。ナノファイバーは、さまざまなポリマーから生成することができるため、異なる物理的特性やアプリケーションの可能性を持っています。
-          </section>
-          <section className="font-bold text-lg text-blue-900">
-            株式会社最先端研究所
-          </section>
-          <section className="flex justify-end">
-            <button
-              type="button"
-              className="bg-green-500 hover:bg-green-700 text-white px-3 py-1 rounded-md"
-            >
-              Read more
-            </button>
-          </section>
-        </div>
-        <div className="p-3 rounded-xl border border-black bg-white shadow-md">
-          <section className="text-3xl font-bold">
-            最先端ナノファイバー技術の超活用！
-          </section>
-          <section className="font-normal text-gray-700">
-            ナノファイバーは、直径がナノメートルの範囲にある繊維である。ナノファイバーは、さまざまなポリマーから生成することができるため、異なる物理的特性やアプリケーションの可能性を持っています。
-          </section>
-          <section className="font-bold text-lg text-blue-900">
-            株式会社最先端研究所
-          </section>
-          <section className="flex justify-end">
-            <button
-              type="button"
-              className="bg-green-500 hover:bg-green-700 text-white px-3 py-1 rounded-md"
-            >
-              Read more
-            </button>
-          </section>
-        </div>
+        <TechCard />
+        <TechCard />
+        <TechCard />
       </div>
     </Layout>
   );
